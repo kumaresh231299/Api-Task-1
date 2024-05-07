@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aqua;
+}
+.container {
+  background-color: white;
+  padding: 20px;
+  border: 30px solid whitesmoke;
+}
+.heading {
+  text-align: center;
+  color: red;
+  text-shadow: -2px 3px 4px black;
+  margin: 10px 0;
+}
+h1 {
+  text-align: center;
+  color: aqua;
+  text-shadow: -2px 3px 4px red;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.image {
+  border-radius: 50%;
+  width: 15%;
+  height: 15%;
+}
+.breeds,
+.btn {
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: aqua;
+  color: crimson;
+  font-size: large;
+  font-weight: bold;
+}
+
+.section {
+  display: none;
+}
+.dogImage {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  height: 200px;
+}

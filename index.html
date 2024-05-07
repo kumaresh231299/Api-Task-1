@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Page</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Title icon -->
+    <link rel="icon" type="image/x-icon"
+        href="https://icons.veryicon.com/png/o/animal/pet-icon/dog-24.png">
+</head>
+
+<body>
+
+    <h1 class="heading">Dogs Picture</h1>
+    <div class="container">
+        <h1>Here we are see breed's picture</h1>
+        <div class="main">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbcm43eMOjJTEo0KT8DdmLXquvQYtpmD83_ZWYTuzLE4DqFPQicrXUx-blaiwkiWAUOaE&usqp=CAU"
+                alt="dog-logo">
+            <div>
+                <!-- Here we will give default dog name, because user easy to access-->
+                <select class="breeds">
+                    <option value="affenpinscher">affenpinscher</option>
+
+                    <option value="african">african</option>
+
+                    <option value="airedale">airedale</option>
+
+                    <option value="akita">akitac</option>
+
+                    <option value="appenzeller">appenzeller</option>
+
+                    <option value="basenji">basenji</option>
+
+                    <option value="beagle"> beagler</option>
+
+                    <option value="bluetick"> bluetick</option>
+
+                    <option value="borzoi">borzoi</option>
+
+                    <option value="bouvier">bouvier</option>
+
+                    <option value="boxer">boxer</option>
+
+                    <option value="brabancon">brabancont</option>
+
+                    <option value="briard">briard</option>
+
+                    <option value="coonhound">coonhound</option>
+
+                    <option values="cotondetulear">cotondetulear</option>
+
+                    <option value="dachshund">dachshunds</option>
+
+                    <option value="dalmatian">dalmatians </option>
+
+                    <option value="dhole">dhole</option>
+
+                    <option value="dingo">dingo</option>
+
+                    <option value="doberman">doberman</option>
+
+                    <option value="entlebucher">entlebucher</option>
+
+                    <option value="eskimo">eskimo</options>
+
+                    <option value="husky">husky</option>
+
+                    <option value="keeshond">keeshond</option>
+
+                    <option value="kelpie">kelpie</option>
+
+                    <option value="komondor">komondor</option>
+
+                    <option value="kuvasz">kuvasz</option>
+
+                    <option value="labradoodle">labradoodle</option>
+
+                    <option value="labrador">labrador</option>
+
+                    <option value="leonberg">leonberg</option>
+
+                    <option value="lhasa">lhasa</option>
+
+                    <option value="malamute">malamute</option>
+
+                    <option value="malinois">malinois</option>
+
+                    <option value="maltese">maltese</option>
+
+                    <option value="pomeranian">pomeranian</option>
+
+                    <option value="pug">pug</option>
+
+                    <option value="puggle">puggle</option>
+
+                    <option value="pyrenees">pyrenees</option>
+
+                    <option value="redbone">redbone</option>
+
+                    <option value="retriever">golden retriever</option>
+
+                    <option value="springer">springer</option>
+
+                    <option value="stbernard">stbernard</option>
+
+                    <option value="terrier">terrier</option>
+
+                    <option value="tervuren">tervuren</option>
+
+                    <option value="vizsla">vizsla</option>
+
+                    <option value="waterdog">spanish waterdog</option>
+
+                    <option value="weimaraner">weimaraner</option>
+
+                    <option value="whippet">whippet</option>
+
+                    <option value="wolfhound">wolfhound</option>
+                </select>
+                <button class="btn " onclick="myFunction()">Search</button>
+            </div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsbHFWc2bcsyYo3kaFz5GyOY-gRg5a66lObCMUbh6XIUZ2VzAEbiLEueMfeC4eDIrc0A0&usqp=CAU"
+                alt="dog-logo">
+        </div>
+    </div>
+
+    <!-- Display the Api result Dog Image -->
+    <div class="section">
+        <div class="dogImage"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
